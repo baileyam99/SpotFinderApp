@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Code created by: Alex Bailey
+    Edited by:
+    Spot Finder App Version: 1.5.0
+    Original creation date: 9/27/21
+    For course: CSCI 362
+    -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/app_background3"
+    android:padding="16dp"
+    tools:context=".ui.login.LoginActivity">
+
+    <!-- Logo -->
+    <ImageView
+        android:id="@+id/logo_main"
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="15dp"
+        app:srcCompat="@drawable/logo" />
+
+    <!-- Welcome Message -->
+    <TextView
+        android:id="@+id/welcome_msg"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_below="@+id/logo_main"
+        android:fontFamily="@font/renogare_soft_regular"
+        android:text="@string/welcome_msg"
+        android:textColor="@color/white"
+        android:autoSizeTextType="uniform"
+        android:autoSizeMinTextSize="20sp"
+        android:autoSizeMaxTextSize="27sp"
+        android:autoSizeStepGranularity="1px"
+        android:textStyle="bold" />
+
+    <!-- Login message -->
+    <TextView
+        android:id="@+id/welcome_msg2"
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:layout_below="@+id/welcome_msg"
+        android:layout_marginTop="-1dp"
+        android:layout_marginBottom="4dp"
+        android:autoSizeMaxTextSize="18sp"
+        android:autoSizeMinTextSize="12sp"
+        android:autoSizeStepGranularity="1px"
+        android:autoSizeTextType="uniform"
+        android:fontFamily="@font/renogare_soft_regular"
+        android:gravity="left"
+        android:text="@string/welcome_msg2"
+        android:textColor="@color/theme_dark_blue"
+        android:textStyle="bold" />
+
+    <!-- Username entry -->
+    <EditText
+        android:id="@+id/username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/welcome_msg2"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="#30ffffff"
+        android:drawableLeft="@drawable/ic_baseline_person_24"
+        android:drawablePadding="7dp"
+        android:fontFamily="@font/renogare_soft_regular"
+        android:hint="@string/username"
+        android:inputType="text"
+        android:padding="20dp"
+        android:textColor="@color/black"
+        android:textColorHint="@color/white" />
+
+    <!-- Password entry -->
+    <EditText
+        android:id="@+id/password"
+        android:fontFamily="@font/renogare_soft_regular"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/username"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="#30ffffff"
+        android:drawableLeft="@drawable/ic_baseline_vpn_key_24"
+        android:drawablePadding="7dp"
+        android:hint="@string/password"
+        android:inputType="textPassword"
+        android:padding="20dp"
+        android:textColor="@color/black"
+        android:textColorHint="@color/white" />
+
+    <!-- Login button -->
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/login_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/forgot_password"
+        android:fontFamily="@font/renogare_soft_regular"
+        android:layout_centerHorizontal="true"
+        android:backgroundTint="@color/theme_light_blue"
+        android:text="@string/login_button">
+
+    </com.google.android.material.button.MaterialButton>
+
+    <!-- Forgot password button -->
+    <Button
+        android:id="@+id/forgot_password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/password"
+        android:layout_alignRight="@+id/password"
+        android:background="?android:attr/selectableItemBackground"
+        android:text="@string/forgot_password"
+        android:fontFamily="@font/renogare_soft_regular"
+        android:textSize="9sp"
+        android:layout_marginRight="10dp" />
+
+    <!-- Create account button -->
+    <Button
+        android:id="@+id/create_account"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/login_button"
+        android:background="?android:attr/selectableItemBackground"
+        android:text="@string/create_account"
+        android:fontFamily="@font/renogare_soft_regular"
+        android:textSize="9sp" />
+
+</RelativeLayout>

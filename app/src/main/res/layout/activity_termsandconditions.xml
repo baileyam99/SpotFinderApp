@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Code created by: Alex Bailey
+    Edited by:
+    Spot Finder App Version: 1.5.0
+    Original creation date: 9/27/21
+    For course: CSCI 362
+    -->
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:padding="20dp"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/app_background3"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.termsandconditions.TermsAndConditionsActivity">
+
+    <!-- title -->
+    <TextView
+        android:id="@+id/terms_and_conditions_title"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:text="@string/terms_and_conditions_title"
+        android:layout_alignLeft="@+id/terms_and_conditions_text"
+        android:layout_alignRight="@+id/terms_and_conditions_text"
+        android:fontFamily="@font/renogare_soft_regular"
+        android:autoSizeTextType="uniform"
+        android:autoSizeMinTextSize="20sp"
+        android:autoSizeMaxTextSize="37sp"
+        android:autoSizeStepGranularity="1px"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:textStyle="bold" />
+
+    <!-- terms and conditions -->
+    <TextView
+        android:id="@+id/terms_and_conditions_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/terms_and_conditions"
+        android:autoSizeTextType="uniform"
+        android:autoSizeMinTextSize="12sp"
+        android:autoSizeMaxTextSize="15sp"
+        android:autoSizeStepGranularity="1px"
+        android:textColor="@color/black"
+        android:fontFamily="@font/renogare_soft_regular"
+        android:layout_below="@+id/terms_and_conditions_title"
+        android:layout_marginTop="10dp"/>
+
+    <!-- read confirm -->
+    <CheckBox
+        android:id="@+id/terms_and_conditions_checkbox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/terms_and_conditions_text"
+        android:text="@string/i_agree"
+        android:textSize="15sp"
+        android:textColor="@color/maroon"
+        android:buttonTint="@color/black"
+        android:fontFamily="@font/renogare_soft_regular"
+        android:layout_marginTop="10dp"/>
+
+    <!-- submit button -->
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/terms_and_conditions_submit_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/terms_and_conditions_checkbox"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:backgroundTint="@color/theme_light_blue"
+        android:text="@string/submit_agreement">
+
+    </com.google.android.material.button.MaterialButton>
+
+</RelativeLayout>

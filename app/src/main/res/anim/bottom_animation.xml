@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Code created by: Alex Bailey
+    Edited by:
+    Spot Finder App Version: 1.5.0
+    Original creation date: 9/27/21
+    For course: CSCI 362
+    -->
+<set xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <translate
+        android:fromXDelta="0%"
+        android:fromYDelta="100%"
+        android:duration="1500"/>
+
+    <alpha
+        android:fromAlpha="0.1"
+        android:toAlpha="1.0"
+        android:duration="1500"/>
+
+</set>

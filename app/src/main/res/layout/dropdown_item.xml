@@ -1,0 +1,17 @@
+<!--
+    Code created by: Alex Bailey
+    Edited by:
+    Spot Finder App Version: 1.5.0
+    Original creation date: 9/27/21
+    For course: CSCI 362
+    -->
+<TextView
+    android:id="@+id/dropdown_item"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="TextView"
+    android:textColor="@color/black"
+    android:padding="14dp"
+    android:textSize="12sp"
+    android:fontFamily="@font/renogare_soft_regular"
+    xmlns:android="http://schemas.android.com/apk/res/android" />

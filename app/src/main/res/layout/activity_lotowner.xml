@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Code created by: Alex Bailey
+    Edited by:
+    Spot Finder App Version: 1.5.0
+    Original creation date: 9/27/21
+    For course: CSCI 362
+    -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/app_background3"
+    android:padding="16dp"
+    tools:context=".ui.createaccount.LotOwnerActivity">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <!-- Title -->
+            <TextView
+                android:id="@+id/owner_info_prompt"
+                android:layout_width="350dp"
+                android:layout_height="100dp"
+                android:layout_centerHorizontal="true"
+                android:autoSizeMaxTextSize="37sp"
+                android:autoSizeMinTextSize="20sp"
+                android:autoSizeStepGranularity="1px"
+                android:autoSizeTextType="uniform"
+                android:fontFamily="@font/renogare_soft_regular"
+                android:gravity="center"
+                android:text="@string/proof_own_prompt"
+                android:textColor="@color/white"
+                android:textStyle="bold" />
+
+            <!-- Subtitle -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="110dp"
+                android:id="@+id/explain_proof_own"
+                android:text="@string/explain_proof_own"
+                android:autoSizeMaxTextSize="24sp"
+                android:autoSizeMinTextSize="15sp"
+                android:autoSizeStepGranularity="1px"
+                android:autoSizeTextType="uniform"
+                android:textColor="@color/black"
+                android:fontFamily="@font/renogare_soft_regular"
+                android:layout_below="@+id/owner_info_prompt"
+                android:layout_marginTop="10dp"/>
+
+            <!-- Enter info -->
+            <EditText
+                android:id="@+id/validation_info"
+                android:inputType="text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/explain_proof_own"
+                android:layout_marginStart="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="#30ffffff"
+                android:hint="@string/validation_info"
+                android:fontFamily="@font/renogare_soft_regular"
+                android:padding="20dp"
+                android:textColor="@color/black"
+                android:textColorHint="@color/white" />
+
+            <!-- Enter info -->
+            <EditText
+                android:id="@+id/validation_info2"
+                android:inputType="text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/validation_info"
+                android:layout_marginStart="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="#30ffffff"
+                android:hint="@string/validation_info"
+                android:fontFamily="@font/renogare_soft_regular"
+                android:padding="20dp"
+                android:textColor="@color/black"
+                android:textColorHint="@color/white" />
+
+            <!-- Enter info -->
+            <EditText
+                android:id="@+id/validation_info3"
+                android:inputType="text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/validation_info2"
+                android:layout_marginStart="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="#30ffffff"
+                android:hint="@string/validation_info"
+                android:fontFamily="@font/renogare_soft_regular"
+                android:padding="20dp"
+                android:textColor="@color/black"
+                android:textColorHint="@color/white" />
+
+            <!-- Enter info -->
+            <EditText
+                android:id="@+id/validation_info4"
+                android:inputType="text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/validation_info3"
+                android:layout_marginStart="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="#30ffffff"
+                android:hint="@string/validation_info"
+                android:fontFamily="@font/renogare_soft_regular"
+                android:padding="20dp"
+                android:textColor="@color/black"
+                android:textColorHint="@color/white" />
+
+            <!-- Enter info -->
+            <EditText
+                android:id="@+id/validation_info5"
+                android:inputType="text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/validation_info4"
+                android:layout_marginStart="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="#30ffffff"
+                android:hint="@string/validation_info"
+                android:fontFamily="@font/renogare_soft_regular"
+                android:padding="20dp"
+                android:textColor="@color/black"
+                android:textColorHint="@color/white" />
+
+            <!-- Enter info -->
+            <EditText
+                android:id="@+id/validation_info6"
+                android:inputType="text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/validation_info5"
+                android:layout_marginStart="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="#30ffffff"
+                android:hint="@string/validation_info"
+                android:fontFamily="@font/renogare_soft_regular"
+                android:padding="20dp"
+                android:textColor="@color/black"
+                android:textColorHint="@color/white" />
+
+            <!-- Enter info -->
+            <EditText
+                android:id="@+id/validation_info7"
+                android:inputType="text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/validation_info6"
+                android:layout_marginStart="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="#30ffffff"
+                android:hint="@string/validation_info"
+                android:fontFamily="@font/renogare_soft_regular"
+                android:padding="20dp"
+                android:textColor="@color/black"
+                android:textColorHint="@color/white" />
+
+            <!-- Enter info -->
+            <EditText
+                android:id="@+id/validation_info8"
+                android:inputType="text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/validation_info7"
+                android:layout_marginStart="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="#30ffffff"
+                android:hint="@string/validation_info"
+                android:fontFamily="@font/renogare_soft_regular"
+                android:padding="20dp"
+                android:textColor="@color/black"
+                android:textColorHint="@color/white" />
+
+            <!-- Continue button -->
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/lot_owner_continue_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/validation_info8"
+                android:layout_marginTop="30dp"
+                android:layout_alignRight="@+id/validation_info8"
+                android:backgroundTint="@color/theme_light_blue"
+                android:fontFamily="@font/renogare_soft_regular"
+                android:text="@string/continue_button">
+
+            </com.google.android.material.button.MaterialButton>
+
+            <!-- back button -->
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/lot_owner_back_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/validation_info8"
+                android:layout_alignLeft="@+id/validation_info8"
+                android:layout_marginTop="30dp"
+                android:fontFamily="@font/renogare_soft_regular"
+                android:backgroundTint="@color/theme_light_blue"
+                android:text="@string/back">
+
+            </com.google.android.material.button.MaterialButton>
+
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+
+
+</RelativeLayout>

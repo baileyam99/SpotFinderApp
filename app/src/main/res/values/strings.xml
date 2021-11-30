@@ -1,0 +1,100 @@
+<!--
+    Code created by: Alex Bailey
+    Edited by:
+    Spot Finder App Version: 1.5.0
+    Original creation date: 9/27/21
+    For course: CSCI 362
+    -->
+<resources>
+    <!-- splash screen -->
+    <string name="app_name">Spot Finder</string>
+    <string name="location">Charleston, SC</string>
+
+    <!-- login screen -->
+    <string name="login_button">Log in</string>
+    <string name="create_account">Create an account</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="welcome_msg">Welcome to Spot Finder!</string>
+    <string name="welcome_msg2">Log in to get started</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">Incorrect username or password</string>
+    <string name="forgot_password">Forgot Password?</string>
+
+    <!-- create account screen -->
+    <string name="create_account2">Create An Account</string>
+    <string name="create_account_subtitle">Quick • Easy • Secure</string>
+    <string name="firstName">First Name</string>
+    <string name="lastName">Last Name</string>
+    <string name="email">Email</string>
+    <string name="phone">Phone Number</string>
+    <string name="create_username">Create a username</string>
+    <string name="create_password">Create a password</string>
+    <string name="confirm_password">Confirm password</string>
+    <string name="continue_button">Continue</string>
+    <string name="submit">Submit</string>
+    <string name="required">Required*</string>
+    <string name="cancel">Cancel</string>
+    <string name="back">Back</string>
+
+    <!-- create password prompt and requirements -->
+    <string name="password_prompt">Password must include:</string>
+    <string name="password_req1">• At least 10 characters</string>
+    <string name="password_req2">• At least 1 number</string>
+    <string name="password_req3">• At least 1 uppercase letter</string>
+    <string name="password_req4">• At least 1 lowercase letter</string>
+    <string name="password_req5">• At least 1 special character</string>
+    <string name="password_match">Passwords Match</string>
+
+    <!-- user type prompts -->
+    <string name="type_selection">I am a...</string>
+
+    <!-- license plate entry -->
+    <string name="plate_entry">Please Enter A Valid License Plate</string>
+    <string name="plate_number">Licence Plate Number</string>
+    <string name="state">Select State</string>
+    <string name="plate_subtitle">Entering your license plate number allows us to ensure the correct vehicle is parked in the correct spot</string>
+
+    <!-- owner validation details -->
+    <string name="proof_own_prompt">Please submit proof of ownership</string>
+    <string name="proof_own">Proof of Ownership</string>
+    <string name="explain_proof_own">In order to add your spot(s) to our system,
+        you must legally prove that you own and/or manage the specified property</string>
+    <string name="validation_info">Validation info</string>
+
+    <!-- create account error -->
+    <string name="error_required_fields">Please complete all required fields.</string>
+    <string name="error_invalid_entry">Invalid entry.</string>
+    <string name="error_invalid_email">Please enter a valid email address.</string>
+    <string name="error_invalid_phone">Please enter a valid phone number.</string>
+    <string name="error_username_taken">This username is already taken.</string>
+    <string name="error_invalid_length_long">Entry is too long</string>
+    <string name="error_invalid_length_short">Entry is too short</string>
+    <string name="error_password_req1">Password be at least 10 characters.</string>
+    <string name="error_password_req2">Password must contain a number.</string>
+    <string name="error_password_req3">Password must contain at least one uppercase letter.</string>
+    <string name="error_password_req4">Password must contain at least one lowercase letter.</string>
+    <string name="error_password_req5">Password must contain at least one special character.</string>
+    <string name="error_password_req6">Password cannot contain spaces.</string>
+    <string name="error_password_match_error">Passwords do not match.</string>
+    <string name="error_incomplete_form">Please Correct Indicated Fields</string>
+    <string name="error_user_type">Please select a user type</string>
+
+    <!-- terms and conditions -->
+    <string name="terms_and_conditions_title">Terms and Conditions</string>
+    <string name="terms_and_conditions">This is our terms and conditions page. The page where we outline all our terms and conditions of the app and service we are creating.
+        This is our terms and conditions page. The page where we outline all our terms and conditions of the app and service we are creating. This is our terms and
+        conditions page. The page where we outline all our terms and conditions of the app and service we are creating. This is our terms and conditions page. The page where
+        we outline all our terms and conditions of the app and service we are creating. This is our terms and conditions page. The page where we outline all our terms and
+        conditions of the app and service we are creating. This is our terms and conditions page. The page where we outline all our terms and conditions of the app and service
+        we are creating. This is our terms and conditions page. The page where we outline all our terms and conditions of the app and service we are creating. This is our terms
+        and conditions page. The page where we outline all our terms and conditions of the app and service we are creating.</string>
+
+    <string name="i_agree">I have read all terms and conditions</string>
+    <string name="submit_agreement">Submit</string>
+
+
+</resources>
